@@ -1,0 +1,366 @@
+/Users/mossa/Estudios/AgentesIA/BioDescDiccionario/.venv/bin/python /Users/mossa/Estudios/AgentesIA/BioDescDiccionario/main.py 
+============================================================
+PROCESADOR DEL DICCIONARIO COMPLETO
+============================================================
+
+Cargando introducción y capítulo A ya procesados...
+  ✓ Capítulo A: 175 entradas
+
+============================================================
+PROCESANDO SECCIONES RESTANTES
+============================================================
+
+[letra_b] Páginas 95-113...
+  Extraído: 45807 caracteres
+  Estructurando con GPT-4...
+  Encontrados 33 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 8 entradas válidas
+    Chunk 2/4: 9 entradas válidas
+    Chunk 3/4: 11 entradas válidas
+    Chunk 4/4: 7 entradas válidas
+  Total: 35 entradas estructuradas
+  ✓ 35 entradas añadidas
+
+[letra_c] Páginas 114-202...
+  Extraído: 243949 caracteres
+  Estructurando con GPT-4...
+  Encontrados 169 posibles títulos de entradas...
+  Dividido en 22 chunks (evitando cortar entradas)...
+    Chunk 1/22: 7 entradas válidas
+    Chunk 2/22: 6 entradas válidas
+    Chunk 3/22: 4 entradas válidas
+    Chunk 4/22: 6 entradas válidas
+    Chunk 5/22: 7 entradas válidas
+    Chunk 6/22: 6 entradas válidas
+    Chunk 7/22: 9 entradas válidas
+    Chunk 8/22: 9 entradas válidas
+    Chunk 9/22: 9 entradas válidas
+    Chunk 10/22: 7 entradas válidas
+    Chunk 11/22: 7 entradas válidas
+    Chunk 12/22: 10 entradas válidas
+    Chunk 13/22: 10 entradas válidas
+    Chunk 14/22: 9 entradas válidas
+    Chunk 15/22: 8 entradas válidas
+    Chunk 16/22: 6 entradas válidas
+    Chunk 17/22: 9 entradas válidas
+    Chunk 18/22: 9 entradas válidas
+    Chunk 19/22: 6 entradas válidas
+    Chunk 20/22: 4 entradas válidas
+    Chunk 21/22: 8 entradas válidas
+    Chunk 22/22: 6 entradas válidas
+  Total: 162 entradas estructuradas
+  ✓ 162 entradas añadidas
+
+[letra_d] Páginas 203-238...
+  Extraído: 87015 caracteres
+  Estructurando con GPT-4...
+  Encontrados 78 posibles títulos de entradas...
+  Dividido en 9 chunks (evitando cortar entradas)...
+    Chunk 1/9: 9 entradas válidas
+    Chunk 2/9: 9 entradas válidas
+    Chunk 3/9: 10 entradas válidas
+    Chunk 4/9: 4 entradas válidas
+    Chunk 5/9: 5 entradas válidas
+    Chunk 6/9: 11 entradas válidas
+    Chunk 7/9: 11 entradas válidas
+    Chunk 8/9: 10 entradas válidas
+    Chunk 9/9: 0 entradas válidas
+  Total: 69 entradas estructuradas
+  ✓ 69 entradas añadidas
+
+[letra_e] Páginas 239-290...
+  Extraído: 130406 caracteres
+  Estructurando con GPT-4...
+  Encontrados 160 posibles títulos de entradas...
+  Dividido en 13 chunks (evitando cortar entradas)...
+    Chunk 1/13: 10 entradas válidas
+    Chunk 2/13: 9 entradas válidas
+    Chunk 3/13: 8 entradas válidas
+    Chunk 4/13: 7 entradas válidas
+    Chunk 5/13: 11 entradas válidas
+    Chunk 6/13: 11 entradas válidas
+    Chunk 7/13: 10 entradas válidas
+    Chunk 8/13: 9 entradas válidas
+    Chunk 9/13: 8 entradas válidas
+    Chunk 10/13: 10 entradas válidas
+    Chunk 11/13: 6 entradas válidas
+    Chunk 12/13: 11 entradas válidas
+    Chunk 13/13: 1 entradas válidas
+  Total: 111 entradas estructuradas
+  ✓ 111 entradas añadidas
+
+[letra_f] Páginas 291-307...
+  Extraído: 41378 caracteres
+  Estructurando con GPT-4...
+  Encontrados 52 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 10 entradas válidas
+    Chunk 2/4: 8 entradas válidas
+    Chunk 3/4: 12 entradas válidas
+    Chunk 4/4: 6 entradas válidas
+  Total: 36 entradas estructuradas
+  ✓ 36 entradas añadidas
+
+[letra_g] Páginas 308-327...
+  Extraído: 50225 caracteres
+  Estructurando con GPT-4...
+  Encontrados 74 posibles títulos de entradas...
+  Dividido en 5 chunks (evitando cortar entradas)...
+    Chunk 1/5: 8 entradas válidas
+    Chunk 2/5: 9 entradas válidas
+    Chunk 3/5: 7 entradas válidas
+    Chunk 4/5: 8 entradas válidas
+    Chunk 5/5: 6 entradas válidas
+  Total: 38 entradas estructuradas
+  ✓ 38 entradas añadidas
+
+[letra_h] Páginas 328-361...
+  Extraído: 86902 caracteres
+  Estructurando con GPT-4...
+  Encontrados 104 posibles títulos de entradas...
+  Dividido en 9 chunks (evitando cortar entradas)...
+    Chunk 1/9: 9 entradas válidas
+    Chunk 2/9: 7 entradas válidas
+    Chunk 3/9: 8 entradas válidas
+    Chunk 4/9: 10 entradas válidas
+    Chunk 5/9: 8 entradas válidas
+    Chunk 6/9: 10 entradas válidas
+    Chunk 7/9: 8 entradas válidas
+    Chunk 8/9: 7 entradas válidas
+    Chunk 9/9: 1 entradas válidas
+  Total: 68 entradas estructuradas
+  ✓ 68 entradas añadidas
+
+[letra_i] Páginas 362-379...
+  Extraído: 46819 caracteres
+  Estructurando con GPT-4...
+  Encontrados 56 posibles títulos de entradas...
+  Dividido en 5 chunks (evitando cortar entradas)...
+    Chunk 1/5: 8 entradas válidas
+    Chunk 2/5: 6 entradas válidas
+    Chunk 3/5: 4 entradas válidas
+    Chunk 4/5: 6 entradas válidas
+    Chunk 5/5: 4 entradas válidas
+  Total: 28 entradas estructuradas
+  ✓ 28 entradas añadidas
+
+[letra_j] Páginas 380-380...
+  Extraído: 367 caracteres
+  Estructurando con GPT-4...
+  Encontrados 4 posibles títulos de entradas...
+  Dividido en 1 chunks (evitando cortar entradas)...
+    Chunk 1/1: 0 entradas válidas
+  Total: 0 entradas estructuradas
+  ✗ No se extrajeron entradas
+
+[letra_k] Páginas 381-381...
+  Extraído: 1013 caracteres
+  Estructurando con GPT-4...
+  Encontrados 2 posibles títulos de entradas...
+  Dividido en 1 chunks (evitando cortar entradas)...
+    Chunk 1/1: 1 entradas válidas
+  Total: 1 entradas estructuradas
+  ✓ 1 entradas añadidas
+
+[letra_l] Páginas 382-398...
+  Extraído: 41512 caracteres
+  Estructurando con GPT-4...
+  Encontrados 63 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 8 entradas válidas
+    Chunk 2/4: 9 entradas válidas
+    Chunk 3/4: 9 entradas válidas
+    Chunk 4/4: 9 entradas válidas
+  Total: 35 entradas estructuradas
+  ✓ 35 entradas añadidas
+
+[letra_m] Páginas 399-433...
+  Extraído: 94949 caracteres
+  Estructurando con GPT-4...
+  Encontrados 129 posibles títulos de entradas...
+  Dividido en 9 chunks (evitando cortar entradas)...
+    Chunk 1/9: 9 entradas válidas
+    Chunk 2/9: 6 entradas válidas
+    Chunk 3/9: 6 entradas válidas
+    Chunk 4/9: 9 entradas válidas
+    Chunk 5/9: 10 entradas válidas
+    Chunk 6/9: 11 entradas válidas
+    Chunk 7/9: 8 entradas válidas
+    Chunk 8/9: 9 entradas válidas
+    Chunk 9/9: 7 entradas válidas
+  Total: 75 entradas estructuradas
+  ✓ 75 entradas añadidas
+
+[letra_n] Páginas 434-449...
+  Extraído: 39472 caracteres
+  Estructurando con GPT-4...
+  Encontrados 54 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 8 entradas válidas
+    Chunk 2/4: 8 entradas válidas
+    Chunk 3/4: 9 entradas válidas
+    Chunk 4/4: 6 entradas válidas
+  Total: 31 entradas estructuradas
+  ✓ 31 entradas añadidas
+
+[letra_o] Páginas 450-465...
+  Extraído: 46798 caracteres
+  Estructurando con GPT-4...
+  Encontrados 57 posibles títulos de entradas...
+  Dividido en 5 chunks (evitando cortar entradas)...
+    Chunk 1/5: 5 entradas válidas
+    Chunk 2/5: 6 entradas válidas
+    Chunk 3/5: 6 entradas válidas
+    Chunk 4/5: 7 entradas válidas
+    Chunk 5/5: 5 entradas válidas
+  Total: 29 entradas estructuradas
+  ✓ 29 entradas añadidas
+
+[letra_p] Páginas 466-512...
+  Extraído: 130187 caracteres
+  Estructurando con GPT-4...
+  Encontrados 155 posibles títulos de entradas...
+  Dividido en 13 chunks (evitando cortar entradas)...
+    Chunk 1/13: 8 entradas válidas
+    Chunk 2/13: 8 entradas válidas
+    Chunk 3/13: 9 entradas válidas
+    Chunk 4/13: 5 entradas válidas
+    Chunk 5/13: 8 entradas válidas
+    Chunk 6/13: 5 entradas válidas
+    Chunk 7/13: 6 entradas válidas
+    Chunk 8/13: 11 entradas válidas
+    Chunk 9/13: 8 entradas válidas
+    Chunk 10/13: 8 entradas válidas
+    Chunk 11/13: 8 entradas válidas
+    Chunk 12/13: 7 entradas válidas
+    Chunk 13/13: 1 entradas válidas
+  Total: 92 entradas estructuradas
+  ✓ 92 entradas añadidas
+
+[letra_q] Páginas 513-516...
+  Extraído: 7840 caracteres
+  Estructurando con GPT-4...
+  Encontrados 12 posibles títulos de entradas...
+  Dividido en 1 chunks (evitando cortar entradas)...
+    Chunk 1/1: 9 entradas válidas
+  Total: 9 entradas estructuradas
+  ✓ 9 entradas añadidas
+
+[letra_r] Páginas 517-531...
+  Extraído: 42665 caracteres
+  Estructurando con GPT-4...
+  Encontrados 38 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 7 entradas válidas
+    Chunk 2/4: 8 entradas válidas
+    Chunk 3/4: 5 entradas válidas
+    Chunk 4/4: 7 entradas válidas
+  Total: 27 entradas estructuradas
+  ✓ 27 entradas añadidas
+
+[letra_s] Páginas 532-554...
+  Extraído: 63574 caracteres
+  Estructurando con GPT-4...
+  Encontrados 64 posibles títulos de entradas...
+  Dividido en 6 chunks (evitando cortar entradas)...
+    Chunk 1/6: 8 entradas válidas
+    Error en chunk 2: object of type 'NoneType' has no len()
+    Chunk 3/6: 6 entradas válidas
+    Chunk 4/6: 7 entradas válidas
+    Chunk 5/6: 10 entradas válidas
+    Chunk 6/6: 3 entradas válidas
+  Total: 34 entradas estructuradas
+  ✓ 34 entradas añadidas
+
+[letra_t] Páginas 555-582...
+  Extraído: 78893 caracteres
+  Estructurando con GPT-4...
+  Encontrados 68 posibles títulos de entradas...
+  Dividido en 7 chunks (evitando cortar entradas)...
+    Chunk 1/7: 8 entradas válidas
+    Chunk 2/7: 7 entradas válidas
+    Chunk 3/7: 10 entradas válidas
+    Chunk 4/7: 5 entradas válidas
+    Chunk 5/7: 12 entradas válidas
+    Chunk 6/7: 7 entradas válidas
+    Chunk 7/7: 5 entradas válidas
+  Total: 54 entradas estructuradas
+  ✓ 54 entradas añadidas
+
+[letra_u] Páginas 583-589...
+  Extraído: 19544 caracteres
+  Estructurando con GPT-4...
+  Encontrados 22 posibles títulos de entradas...
+  Dividido en 2 chunks (evitando cortar entradas)...
+    Chunk 1/2: 8 entradas válidas
+    Chunk 2/2: 7 entradas válidas
+  Total: 15 entradas estructuradas
+  ✓ 15 entradas añadidas
+
+[letra_v] Páginas 590-603...
+  Extraído: 41355 caracteres
+  Estructurando con GPT-4...
+  Encontrados 37 posibles títulos de entradas...
+  Dividido en 4 chunks (evitando cortar entradas)...
+    Chunk 1/4: 10 entradas válidas
+    Chunk 2/4: 4 entradas válidas
+    Chunk 3/4: 5 entradas válidas
+    Chunk 4/4: 6 entradas válidas
+  Total: 25 entradas estructuradas
+  ✓ 25 entradas añadidas
+
+[letra_wxy] Páginas 604-604...
+  Extraído: 1161 caracteres
+  Estructurando con GPT-4...
+  Encontrados 6 posibles títulos de entradas...
+  Dividido en 1 chunks (evitando cortar entradas)...
+    Chunk 1/1: 1 entradas válidas
+  Total: 1 entradas estructuradas
+  ✓ 1 entradas añadidas
+
+[letra_z] Páginas 605-605...
+  Extraído: 2226 caracteres
+  Estructurando con GPT-4...
+  Encontrados 5 posibles títulos de entradas...
+  Dividido en 1 chunks (evitando cortar entradas)...
+    Chunk 1/1: 0 entradas válidas
+  Total: 0 entradas estructuradas
+  ✗ No se extrajeron entradas
+
+============================================================
+GUARDANDO RESULTADOS
+============================================================
+✓ Guardado: diccionario_completo.json
+✓ Guardado: entradas_completo.json
+
+============================================================
+RESUMEN FINAL
+============================================================
+Total de entradas: 1150
+
+Entradas por sección:
+  letra_a: 175
+  letra_b: 35
+  letra_c: 162
+  letra_d: 69
+  letra_e: 111
+  letra_f: 36
+  letra_g: 38
+  letra_h: 68
+  letra_i: 28
+  letra_k: 1
+  letra_l: 35
+  letra_m: 75
+  letra_n: 31
+  letra_o: 29
+  letra_p: 92
+  letra_q: 9
+  letra_r: 27
+  letra_s: 34
+  letra_t: 54
+  letra_u: 15
+  letra_v: 25
+  letra_wxy: 1
+
+Process finished with exit code 0

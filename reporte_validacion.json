@@ -1,0 +1,9 @@
+{
+  "exitosa": true,
+  "problemas": [],
+  "metricas": {
+    "intro_ok": true,
+    "entradas_a": 175,
+    "entradas_completas": 175
+  }
+}
