@@ -8,25 +8,6 @@ os.environ["OLLAMA_HOST"] = os.getenv("OLLAMA_HOST", "http://host.docker.interna
 import ollama
 from config import *
 
-# def is_over_budget(ip: str) -> bool:
-#     return token_usage[ip] >= MAX_TOKENS_PER_IP
-#
-#
-# def estimate_tokens(text: str) -> int:
-#     # ~1 token cada 4 caracteres (regla empírica)
-#     return max(1, len(text) // 4)
-#
-#
-# def register_token_usage(ip: str, texts: list[str]):
-#     total = sum(estimate_tokens(t) for t in texts)
-#     token_usage[ip] += total
-#     return token_usage[ip]
-#
-#
-# abuse_notified = set()
-#
-# if not EMAIL_ALERTS_ENABLED:
-#     print("⚠️Alertas por email desactivadas.")
 
 # ============================================================
 # SISTEMA DE BÚSQUEDA
@@ -41,12 +22,14 @@ def normalizar(texto: str) -> str:
     texto = re.sub(r"\s+", " ", texto)
     return texto.strip()
 
+
 def singularizar(palabra: str) -> str:
     if palabra.endswith("es"):
         return palabra[:-2]
     if palabra.endswith("s"):
         return palabra[:-1]
     return palabra
+
 
 PALABRAS_GENERICAS = {
     "problema", "problemas",
@@ -56,6 +39,7 @@ PALABRAS_GENERICAS = {
     "alteracion", "alteraciones",
     "sintoma", "sintomas"
 }
+
 
 def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> List[Dict]:
     """
@@ -96,17 +80,15 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
             # TODO: ¿Por qué encuentra ANTES por núcleo semántico?
             print(f"  Total encontrados: {len(resultados)}")
             return resultados[:limite]
-            #continue
+            # continue
 
         palabras_consulta = set(termino_norm.split())
         # núcleo semántico (primera palabra del término)
         # núcleo semántico (palabra completa)
         nucleo = clave.split()[0]
 
-        if (
-                len(nucleo) < 5 or
-                nucleo in PALABRAS_GENERICAS
-        ):
+        if (len(nucleo) < 5 or
+                nucleo in PALABRAS_GENERICAS):
             continue
 
         if nucleo in palabras_consulta:
@@ -122,19 +104,16 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
         referencias.update(e.get("referencias_cruzadas", []))
 
     # Estrategia 2: Búsqueda por palabras individuales
-    #palabras = termino_norm.split()
+    # palabras = termino_norm.split()
     palabras = []
     for p in termino_norm.split():
         if len(p) <= 3:
             continue
 
-        if (
-                p in PALABRAS_GENERICAS
-                and not BUSQUEDA_GENERICA_INTENCIONAL
-        ):
+        if (p in PALABRAS_GENERICAS
+                and not BUSQUEDA_GENERICA_INTENCIONAL):
             continue
 
-        #palabras.append(p)
         palabras.append(singularizar(p))
 
     for palabra in palabras:
@@ -153,15 +132,13 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
     nucleos = set()
     for p in termino_norm.split():
         if len(p) > 4:
-            #nucleos.add(p)
+            # nucleos.add(p)
             nucleos.add(singularizar(p))
 
     NUCLEOS_REALES = {
         p for p in nucleos
-        if (
-                p in datos_diccionario["indice_palabras"]
-                and p not in PALABRAS_GENERICAS
-        )
+        if (p in datos_diccionario["indice_palabras"]
+                and p not in PALABRAS_GENERICAS)
     }
 
     if not NUCLEOS_REALES:
@@ -193,7 +170,7 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
         coincidencias = sum(1 for k in keywords if f" {k} " in f" {texto_entrada} ")
 
         if (coincidencias >= 1 and
-            any(n in texto_entrada for n in NUCLEOS_REALES) and
+                any(n in texto_entrada for n in NUCLEOS_REALES) and
                 len(texto_entrada) < 3000):
             resultados.append(entrada)
             resultados_ids.add(id(entrada))
@@ -207,6 +184,7 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
 
     print(f"  Total encontrados: {len(resultados)}")
     return resultados[:limite]
+
 
 # ============================================================
 # CARGAR DICCIONARIO
@@ -243,6 +221,7 @@ def cargar_diccionario() -> Dict:
 print(f"Cargando diccionario...")
 diccionario_data = cargar_diccionario()
 print(f"✓ Diccionario cargado: {diccionario_data['total']} entradas")
+
 
 def construir_contexto(entradas: List[Dict]) -> str:
     """
@@ -291,28 +270,7 @@ def generar_respuesta_ollama(
         pregunta: str,
         contexto: str
 ) -> str:
-    # prompt = f"""
-    # TAREA:
-    # Reescribe ÚNICAMENTE la información proporcionada.
-    #
-    # REGLAS ESTRICTAS:
-    # - No añadas conocimiento externo
-    # - No interpretes
-    # - No generalices
-    # - No expliques más allá del texto
-    # - Si algo no aparece explícitamente, NO lo menciones
-    # - Responde siempre en español
-    #
-    # FUENTE ÚNICA (NO USAR NADA MÁS):
-    # <<<INICIO_CONTEXTO
-    # {contexto}
-    # FIN_CONTEXTO>>>
-    #
-    # FORMATO DE SALIDA:
-    # - Texto claro
-    # - Estructurado
-    # - Sin conclusiones propias
-    # """
+
     prompt = f"""Eres un asistente de biodescodificación.
 
     INFORMACIÓN:
@@ -335,88 +293,6 @@ def generar_respuesta_ollama(
     except Exception as e:
         return f"Error al generar respuesta local: {e}"
 
-# def generar_respuesta_chatgpt(
-#         pregunta: str,
-#         contexto: str
-# ) -> str:
-#     prompt = f"""Eres un asistente de biodescodificación.
-#
-#     No extiendas la información con fuentes externas.
-#
-#
-# INFORMACIÓN:
-# {contexto}
-#
-# PREGUNTA: {pregunta}
-#
-# Responde de forma clara y estructurada."""
-#
-#     try:
-#         response = openai_client.chat.completions.create(
-#             model="gpt-4o",
-#             messages=[
-#                 {"role": "system", "content": "Eres un asistente de biodescodificación."},
-#                 {"role": "user", "content": prompt}
-#             ],
-#             max_tokens=MAX_TOKENS_RESPUESTA,
-#             temperature=0.7
-#         )
-#         return response.choices[0].message.content
-#     except Exception as e:
-#         return f"Error: {e}"
-#
-# def auditar_respuesta_perplexity(pregunta: str, respuesta: str, contexto: str) -> Dict:
-#     """
-#     Audita la respuesta usando Perplexity.
-#     """
-#     prompt = f"""Evalúa la siguiente respuesta sobre biodescodificación.
-#
-# Pregunta original: {pregunta}
-#
-# Respuesta generada: {respuesta}
-#
-# Contexto usado: {contexto[:1000]}...
-#
-# Evalúa en formato JSON:
-# {{
-#     "es_valida": true/false,
-#     "precision": "alta/media/baja",
-#     "coherencia": "alta/media/baja",
-#     "mejoras_sugeridas": "sugerencias si las hay",
-#     "nota_final": "nota del 1 al 10"
-# }}"""
-#
-#     try:
-#         response = perplexity.chat.completions.create(
-#             model="sonar",
-#             messages=[
-#                 {"role": "system",
-#                  "content": "Eres un auditor especializado en biodescodificación. Responde solo con JSON válido."},
-#                 {"role": "user", "content": prompt}
-#             ],
-#             max_tokens=500,
-#             temperature=0.3
-#         )
-#
-#         contenido = response.choices[0].message.content
-#
-#         # Limpiar y parsear
-#         if contenido.startswith("```json"):
-#             contenido = contenido[7:-3]
-#         elif contenido.startswith("```"):
-#             contenido = contenido[3:-3]
-#
-#         return json.loads(contenido)
-#     except Exception as e:
-#         return {
-#             "es_valida": True,
-#             "precision": "media",
-#             "coherencia": "media",
-#             "mejoras_sugeridas": "",
-#             "nota_final": "7",
-#             "error": str(e)
-#         }
-
 def responder_pregunta(pregunta: str, datos_diccionario: Dict) -> Dict:
     """
     Función principal que responde una pregunta.
@@ -436,34 +312,9 @@ def responder_pregunta(pregunta: str, datos_diccionario: Dict) -> Dict:
     contexto = construir_contexto(entradas_encontradas)
 
     # Paso 3: Generar respuesta con ChatGPT
-    #respuesta_chatgpt = generar_respuesta_chatgpt(pregunta, contexto)
+    # respuesta_chatgpt = generar_respuesta_chatgpt(pregunta, contexto)
     respuesta = generar_respuesta_ollama(pregunta, contexto)
 
-    # # Paso 4: Auditar con Perplexity
-    # auditoria = auditar_respuesta_perplexity(pregunta, respuesta, contexto)
-    #
-    # # Si la auditoría es negativa, regenerar
-    # nota = auditoria.get("nota_final", 5)
-    #
-    # try:
-    #     nota = int(nota)
-    # except (ValueError, TypeError):
-    #     nota = 5
-    #
-    # if not auditoria.get("es_valida", True) and nota < 5:
-    #     print(f"\n\nNOTA: La respuesta anterior tuvo problemas según la auditoría. Mejora la precisión. Respuesta:\n{respuesta}")
-    #     respuesta = generar_respuesta_ollama(
-    #         pregunta,
-    #         contexto + "\n\nNOTA: La respuesta anterior tuvo problemas según la auditoría. Mejora la precisión."
-    #     )
-    #     auditoria = auditar_respuesta_perplexity(pregunta, respuesta, contexto)
-
-    # return {
-    #     "respuesta": respuesta,
-    #     "fuentes": [e.get("termino") for e in entradas_encontradas],
-    #     "auditoria": auditoria,
-    #     "es_relevante": True
-    # }
     return {
         "respuesta": respuesta,
         "fuentes": [e.get("termino") for e in entradas_encontradas],
@@ -511,6 +362,7 @@ def chat_con_diccionario(mensaje: str, estado_chat: Dict) -> Dict:
     respuesta_completa = resultado["respuesta"] + fuentes_texto
 
     return respuesta_completa, estado_chat
+
 
 def chat_fn(mensaje: str, historia: List[Dict]) -> Tuple[str, List[Dict]]:
     """
@@ -595,7 +447,6 @@ def crear_interfaz():
 
     return interfaz
 
-
 # ============================================================
 # MODO CONSOLA (alternativo)
 # ============================================================
@@ -609,7 +460,7 @@ def modo_consola():
     print("=" * 50)
     print("Escribe 'salir' para terminar\n")
 
-    #historial = []
+    # historial = []
 
     while True:
         pregunta = input("Tu pregunta: ").strip()
@@ -637,7 +488,6 @@ def modo_consola():
             print(f"Evaluación: {nota}/10")
 
         print("\n" + "-" * 50)
-
 
 # ============================================================
 # ENTRADA PRINCIPAL

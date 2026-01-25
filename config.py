@@ -96,11 +96,3 @@ OLLAMA_OPTIONS = {
     "num_thread": 8
 }
 
-#Example for qwen3-coder (in Ollama)
-# message_qwen = anthropic.messages.create(
-#     model='qwen3-coder',
-#     messages=[
-#         {'role': 'user', 'content': 'Write a function to check if a number is prime'}
-#     ]
-# )
-# print(message.content[0].text)
