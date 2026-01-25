@@ -1,8 +1,4 @@
-{
-  "introduccion": {
-    "contenido": "ya procesada"
-  },
-  "entradas": [
+[
     {
       "termino": "ABASIA",
       "definicion": "Incapacidad para caminar normalmente o para mantenerse en pie, sin que exista ningún trastorno de la musculatura. Suele ir asociado a enfermedades neurológicas tipo párkinson, accidente cerebro vascular (ACV) o hidrocefalia.",
@@ -3476,6 +3472,7 @@
         "TRASTORNOS de COMPORTAMIENTO de 4ª ETAPA"
       ]
     },
+    {
       "termino": "CONDROSARCOMA MENINGEO",
       "definicion": "Tumor maligno mixto de células cartilaginosas que aparece principalmente en huesos largos, cintura pelviana o en la escápula.",
       "tecnico": "3 ª Etapa Embrionaria. Vagotonía: También es fase de curación sobrepasada de un conflicto de cartílagos. Falta de autoreconocimiento.",

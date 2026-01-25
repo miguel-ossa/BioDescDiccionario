@@ -3474,9 +3474,7 @@
     "tecnico": "",
     "sentido_biologico": "",
     "conflicto": "",
-    "referencias_cruzadas": [
-      "VIAS BILIARES"
-    ]
+    "referencias_cruzadas": []
   },
   {
     "termino": "CANALES COLECTORES DEL RIÑÓN",
@@ -3485,8 +3483,7 @@
     "sentido_biologico": "",
     "conflicto": "",
     "referencias_cruzadas": [
-      "RIÑÓN",
-      "CANALES COLECTORES"
+      "RIÑÓN"
     ]
   },
   {
@@ -3495,9 +3492,7 @@
     "tecnico": "",
     "sentido_biologico": "",
     "conflicto": "",
-    "referencias_cruzadas": [
-      "VIAS BILIARES"
-    ]
+    "referencias_cruzadas": []
   },
   {
     "termino": "CANAS",
@@ -3517,8 +3512,7 @@
     "sentido_biologico": "Fabricamos más tejido o lo destruimos, por una necesidad urgente. Siempre en relación a la localización del cáncer y a su etapa. En 1ª y 2ª el sentido biológico está en la fase activa donde construimos más tejido para aumentar la funcionalidad en cuestión. En la 3ª etapa se destruye tejido en la fase de conflicto activo para reconstruirlo mejor en la fase de reparación, el sentido biológico, pues, está en la fase de reparación. En 4ª etapa el sentido biológico está en destruir el tejido para mejorar el “contacto” o reconstruirlo para evitarlo.",
     "conflicto": "Todos los cánceres tienen un conflicto de identidad en el que no somos quien desearíamos ser. Debemos preguntarnos ¿Qué es aquello que no queremos ver morir? (la vejez, el trabajo, una relación, un pensamiento...). Los enfermos de cáncer suelen ser personas que mantienen algún tipo de resentimiento de larga duración o problemas emocionales pendientes con el pasado, creyendo que se trata de algo inocuo, normal o, simplemente, que es imposible cambiar la forma de verlo, pensarlo o sentirlo. Y evidentemente, se sienten profundamente heridos por todo eso. Un cáncer suele tener varios conflictos programantes y un desencadenante. Es importante ir desgranando el “complot” de conflictos, pero existe una urgencia, y en eso es importante un cambio RADICAL en las actitudes, las decisiones, los pensamientos, sentimientos, comportamientos, reacciones que hemos llevado hasta ahora. Una actitud muy importante a tener en cuenta es la siguiente: Debemos reconocer que de niño sufrimos y debemos darnos permiso para rechazar a uno de nuestros progenitores o a los dos. Las heridas vividas en soledad crean la gran mayoría de los problemas. Debemos perdonar, pero sin olvidar que la dificultad más grande de la personas con cáncer es perdonarse a sí mismas por haber albergado esos pensamientos de odio o esas ideas de venganza. Debemos perdonar al niño que vive en nosotros, que vivió en silencio y sintió rabia y rencor sin tener quien lo apoyara, quien lo entendiera. Y debemos dejar de pensar que el hecho de rechazar a otra persona significa ser \"malo\". No es maldad, es ser humano. Si para curarme yo debo (por ejemplo) ir al norte, pero la gente que me quiere no desea ir al norte, entonces yo deberé tomar una decisión: O me quedo con la gente que me quiere, o voy a curarme. Al final, todo gira en el mismo epicentro, darse cuenta de que es correcto ser quien somos. Aunque no hayamos tenido la ocasión de darnos cuenta del “para qué” somos quien somos, el mundo gira siguiendo un sentido y nosotros formamos parte de ese sentido. Aceptémonos pues como nos aceptábamos cuando éramos pequeños: sabiendo de nuestra perfección. Y si dudamos, dediquémonos a partir de ahora a reconocernos, a demostrarnos a nosotros mismos nuestra grandeza. Yo he proyectado mi realidad en los que me rodean, y ellos me la devuelven a modo de espejo comportándose como yo creo que me merezco. Si quiero romper con todo y renovar “mi realidad” debo alejarme de esas inercias repetitivas, inconscientes y que me han producido dolor.",
     "referencias_cruzadas": [
-      "RIÑÓN",
-      "CANALES COLECTORES"
+      "RIÑÓN"
     ]
   },
   {
@@ -3667,7 +3661,7 @@
       "MAMAS – LATERALIDAD y LOCALIZACIÓN",
       "MAMAS – TEJIDO CONJUNTIVO",
       "MAMAS – TERMINACIONES NERVIOSAS",
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)"
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)"
     ]
   },
   {
@@ -5313,22 +5307,6 @@
     "referencias_cruzadas": [
       "CONDRODISTROFIA"
     ]
-  },
-  {
-    "termino": "CONDRODISTROFIA",
-    "definicion": "Alteraciones de la osteogénesis que afecta a los cartílagos y se caracteriza por la extrema fragilidad del sistema óseo. Suele tener su máxima incidencia en la infancia y la adolescencia, pero dura toda la vida.",
-    "tecnico": "3ª Etapa Embrionaria. Conflicto de ligera desvalorización. Conflicto transgeneracional.",
-    "sentido_biologico": "La condrodistrofia tiene la función de evitar al máximo los movimientos y tener cautela en la realización de las acciones. La finalidad es la de no amortiguar los movimientos (cartílagos), para no empezar o adentrarse en una lucha o afrenta que desde el principio sabemos que no podemos ganar. Todo deriva de un programa de “no verse capaz de…”",
-    "conflicto": "Desvalorización heredada del clan. Probable yacente o fantasma en el transgeneracional. Debemos buscar conflictos de batallas perdidas o sumisiones en el sentido de la articulación afectada. Ligero conflicto de desvalorización de sí mismo.",
-    "referencias_cruzadas": []
-  },
-  {
-    "termino": "CONDRONECROSIS",
-    "definicion": "Necrosis de los cartílagos. Generalmente comienza por la ulceración de los tejidos blandos que lo cubren.",
-    "tecnico": "3ª Etapa Embrionaria. Conflicto de desvalorización moderada.",
-    "sentido_biologico": "Vamos a destruir el tejido de los cartílagos afectados para reconstruirlos más fuertes para que ejerzan una mejor protección en las fricciones y el movimiento. Mientras tanto (en fase activa del conflicto), la mejor solución es “no moverse”.",
-    "conflicto": "Ligero conflicto de desvalorización de sí mismo. Siempre en relación a la función y simbolismo de la zona afectada.",
-    "referencias_cruzadas": []
   },
   {
     "termino": "CONMOCIÓN CEREBRAL",
@@ -13703,8 +13681,8 @@
     "sentido_biologico": "El principal sentido biológico de las mamas es la protección (2ª etapa), puesto que de las mamas salen los anticuerpos que protegerán y defenderán al bebé y a la vez crearán su sistema inmunológico. Esto se extiende y se relaciona con la protección del nido, de los hijos, en relación a la pareja… Protección en general y también la protección de la mujer misma. La mujer necesita sentirse protegida para poder tener descendencia y así proteger a sus hijos y eso será función del macho (y del nido). También debemos tener en cuenta la desvalorización en la 3ª etapa, como en el caso de afecciones del tejido conjuntivo que sustenta las estructuras de las mamas. Y también los conflicto de contacto o separación de 4ª etapa en afectaciones de la epidermis y las células epiteliales. Son zonas muy sensibles donde el contacto es algo vital para el sentir de la mujer. Por último no debemos subestimar para nada la función que tienen de atraer al macho. Si esa función no fuese importante, no se harían tantas operaciones estéticas en este sentido.",
     "conflicto": "En general, conflicto de Protección (son los anticuerpos del niño). Unos de los conceptos que tenemos que tener en cuenta al hablar de las patologías de los pechos, son los de nido y nido ampliado, ya que todas estarán relacionadas con ellos en mayor o menor medida. El nido para la mujer siempre será su pareja y su hogar, donde se siente segura para poder tener y sustentar a su familia. El hombre siempre se orienta al exterior (buscar alimento y proteger el nido) mientras que la mujer está orientada al interior, al nido en sí. El nido ampliado hace referencia a eso que va más allá del marido y el hogar: la pareja, el amante, el padre, los abuelos… en definitiva, todo lo que envuelve al nido. Las funciones del nido son básicamente 2: a) Alimentar y Proteger al hijo. Y b) en menor medida está también la función sexual también como parte del nido. Los conflictos relacionados con el nido suelen impactar en la mama izquierda (en mujeres diestras) pues es la mama con la que alimentamos al hijo (ver MAMAS - LATERALIDAD y LOCALIZACIÓN). El otro conflicto, también de protección, es el que impactará en la mama derecha (de las mujeres diestras) y está relacionado con la protección personal. Es imprescindible que la mujer se sienta protegida para traer descendencia al mundo. Conflictos relacionados con los conflictos de Edipo y de Electra: En las que ella busca un sustituto del padre (ausente) o él una continuación de la madre (que lo proteja y cuide). Debemos fijarnos en las fechas de nacimiento y buscar dobles. Conflicto de nido vacío: Problemas que aparecen cuando los hijos se van de casa y las madres dejan de hacer su papel. Conflicto de parentalización: Personas que hacen de madre, pero de todo el mundo, de su marido, de sus colaterales, incluso de sus propias madres. Conflictos de pareja: Mujeres que no logran una estabilidad en sus relaciones. Calcificaciones: Duelos no hechos en los Ciclos Celulares Memorizados (CCM). Necesidad de estabilizar, fortalecer el nido. Microcalcificaciones: Fase activa o reparación de la glándula. Deseo de dar más estructura (fortalecer) a mi hijo. En la mama izquierda en relación a los hijos, a la derecha con la pareja. Senos supernumerarios: Tienen el sentido biológico de dar más oportunidades de alimentar a los hijos. En todos los casos es muy importante analizar el transgeneracional y el proyecto sentido, así como el síndrome del aniversario.",
     "referencias_cruzadas": [
-      "CANCER DE MAMA",
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
   },
@@ -13715,8 +13693,8 @@
     "sentido_biologico": "En caso de una desvalorización que afecte a su función (alimentar), se produce una ulceración del tejido con la intención de: a) agrandar la luz del conducto y poder así conducir más leche al pezón y b) una vez solucionado el conflicto, regenerar el tejido de forma más firme y con más fortaleza para poder así afrontar mejor los nuevos retos.",
     "conflicto": "Su conflicto es separación, falta de protección, falta de comunicación, de alimento, de seguridad. Alguien próximo a nosotros a quien querríamos estrechar contra nuestro pecho y con quien tenemos una falta de comunicación. O también el querer separarse de alguien y no poder. Miedo de no poder proteger a mi hijo, en un contexto de separación. Conflicto de separación de la comunicación con personas cercanas que queremos tener sobre nuestro pecho. En mujer diestra: Mama izquierda: Conflicto de no poder proteger al hijo. 'Me han quitado a mi hijo del pecho'. Mama derecha: Conflicto de no sentirse protegida por la pareja. 'La pareja me la han arrancado del pecho (corazón, alma)'. En mujer zurda: Mama izquierda: Conflicto de no poder proteger a una pareja que es muy dependiente. Mama derecha: Conflicto en relación a la protección que realizo sobre la familia. No puedo proteger a la familia o no quiero proteger a la familia (pero debo). Cáncer ductal: Conflicto de nido y separación. En diestras: Mama izquierda: Niño inmaduro, padre infantil, amante infantil, marido infantil. Mama derecha: Hijo ya mayor, madre autoritaria, marido o amante maduros. Epitelioma: Conflicto de separación en el nido. Ductal infiltrante: También conflicto de nido y separación. Deseo de reunir a la familia disgregada o miedo a que la familia estalle. Suele darse cuando la mujer deja de estar separada de sus hijos, pero se encuentra que no puede alimentarlos.",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -13728,8 +13706,8 @@
     "sentido_biologico": "Proporcionar el contacto necesario. En fase de conflicto activo se ulcera la piel para ampliar así la zona de contacto y dejar de sentirse “separada de”. En fase de reparación se recupera el tejido disminuyendo la sensibilidad a su estado normal.",
     "conflicto": "Melanoma maligno: Conflicto de nido y conflicto de mancha. En relación a un mancillamiento (algo sucio), deshonra mental, falta de apoyo en el nido, atentado a la integridad. Puede verse afectado en el caso de grandes cicatrices o mutilaciones del pecho, en la visión de verse desfigurada o en amputaciones. A veces en caso de muerte del marido o de un hijo y sintiendo que “me lo han arrancado del pecho”. Un conflicto de menor intensidad puede dar lugar a abscesos, mastitis aguda, inflamación o infección de la glándula.",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN",
       "MASTITIS"
@@ -13742,8 +13720,8 @@
     "sentido_biologico": "Tiene un sentido de protección. Es peligroso desarrollar ese pecho, por tanto la función de esta falta es la de impedir que la niña repita el gran conflicto que padeció la madre.",
     "conflicto": "Conflicto de protección (transgeneracional). Es peligroso desarrollar ese pecho. Puede darse una niña que al desarrollarse solo desarrolle un pecho. Es un conflicto de la madre pero que lo somatiza la hija.",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -13777,8 +13755,8 @@
     "sentido_biologico": "No es posible criar y proteger a los hijos.",
     "conflicto": "Conflicto de protección. Buscar en el árbol un programa de supervivencia, por ejemplo: Durante la guerra se tenían muchos hijos (programa de supervivencia) y en una casa convivían hermanos, tías y primos. Si una de las madres moría, la otra se hacía cargo de todos los hijos, pero no solía poder con tanta responsabilidad. La niña que está en la barriga (en gestación) fabrica menos pezones o ninguno para no tener que alimentar a los hijos ya que es una misión imposible.",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -13790,8 +13768,8 @@
     "sentido_biologico": "En caso de desvalorización, el tejido inútil se regenera y se sustituye por uno que cumpla la función para así poder afrontar nuevos retos.",
     "conflicto": "Sarcomas: Su conflicto es la falta de apoyo en el nido. Falta de apoyo para cuidar al hijo (mama izquierda en diestras), “no me apoyan para cuidar de mi hijo”, y falta de apoyo y reconocimiento de la pareja (mama derecha en diestras).",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -13803,8 +13781,8 @@
     "sentido_biologico": "Para evitar sentir y evitar ser tocada. Para proteger mi integridad. Las terminaciones nerviosas se cubren y si el conflicto es largo, terminan enquistándose.",
     "conflicto": "Neurinoma de la mama: Su conflicto es no querer ser tocados, querer estar separados. Un contacto impuesto, desagradable, no deseado o doloroso. “No quiero que mi marido me toque ya”, “No quiero ser palpada por el médico”, “No quiero seguir sufriendo la radioterapia”. Fase de reparación del nervio. Conflicto de agresiones y golpes en el nido. Deseo de separación.",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -13828,8 +13806,8 @@
     "sentido_biologico": "Sentido de protección. Al sentirme desprotegida fabrico más pecho para atraer a un hombre.",
     "conflicto": "Conflicto de protección. Conflicto en relación a los roles jugados dentro de la familia y la relación: Durante muchos siglos, los roles han sido los mismos, la mujer ha cuidado del nido familiar y el hombre ha ido a trabajar. Con los cambios modernos, la mujer empieza una masculinización y los hombres una feminización (en la mujer sube la testosterona y bajan sus estrógenos y en el hombre suben sus estrógenos y baja su testosterona). Esto genera una situación en que, para evitar ser abandonada, la mujer necesita más “armas” para que el hombre se quede con ella y la proteja. Además, con estos cambios, los hombres también desarrollan patologías femeninas. Por ejemplo, actualmente se diagnostican cerca de un 3% de cáncer de pecho en hombres. Muchos están en el paro y sus mujeres trabajan (intercambio de roles).",
     "referencias_cruzadas": [
-      "MAMAS – TIPOS DE CANCER (HISTOLOGÍA)",
-      "CANCER DE MAMA",
+      "MAMAS – TIPOS DE CÁNCER (HISTOLOGÍA)",
+      "CÁNCER DE MAMA",
       "MAMAS",
       "MAMAS – LATERALIDAD Y LOCALIZACIÓN"
     ]
@@ -19224,7 +19202,7 @@
     "sentido_biologico": "Ver sentido biológico de COLON.",
     "conflicto": "Conflicto con algo muy vil donde es necesario que el otro no exista más. Se cura al evacuar.",
     "referencias_cruzadas": [
-      "CANCER de COLON",
+      "CÁNCER de COLON",
       "COLON",
       "RECTO"
     ]

@@ -68,7 +68,7 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
             continue
 
         # clave normalizada completa
-        if termino_norm == clave or termino_norm in clave:
+        if termino_norm == clave:
             resultados.insert(0, entrada)
             resultados_ids.add(id(entrada))
             print(f"    ★ Encontrado por coincidencia exacta: {entrada.get('termino')}")
@@ -76,7 +76,6 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
             # TODO: ¿Por qué encuentra ANTES por núcleo semántico?
             print(f"  Total encontrados: {len(resultados)}")
             return resultados[:limite]
-            # continue
 
         palabras_consulta = set(termino_norm.split())
         # núcleo semántico (primera palabra del término)
@@ -273,7 +272,8 @@ def generar_respuesta_ollama(
     PREGUNTA: {pregunta}
 
     Responde de forma completa, clara y estructurada, siendo fiel a la INFORMACIÓN proporcionada.
-    NO inventes nada, ni te repitas."""
+    NO inventes nada, ni te repitas.
+"""
 
     try:
         resp = ollama.chat(
