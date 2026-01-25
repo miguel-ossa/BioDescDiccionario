@@ -272,7 +272,8 @@ def generar_respuesta_ollama(
 
     PREGUNTA: {pregunta}
 
-    Responde de forma clara y estructurada."""
+    Responde de forma completa, clara y estructurada, siendo fiel a la INFORMACIÓN proporcionada.
+    NO inventes nada, ni te repitas."""
 
     try:
         resp = ollama.chat(

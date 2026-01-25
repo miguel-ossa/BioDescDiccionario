@@ -66,7 +66,7 @@ ENTRADAS_JSON = "entradas_completo.json"
 
 # Configuración del chat
 MAX_ENTRADAS_RELEVANTES = 5
-MAX_TOKENS_RESPUESTA = 1000
+MAX_TOKENS_RESPUESTA = 5000
 
 # openai_client = OpenAI()
 #
@@ -90,7 +90,7 @@ OLLAMA_MODEL = "mistral"
 OLLAMA_OPTIONS = {
     "temperature": 0.3,
     "top_p": 0.9,
-    "num_predict": 800,
+    "num_predict": MAX_TOKENS_RESPUESTA,
     "repeat_penalty": 1.1,
     "num_ctx": 2048,
     "num_thread": 8
