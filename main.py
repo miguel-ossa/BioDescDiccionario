@@ -73,7 +73,6 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
             resultados_ids.add(id(entrada))
             print(f"    ★ Encontrado por coincidencia exacta: {entrada.get('termino')}")
             # Si se encuentra una coincidencia exacta, eliminar todas las demás
-            # TODO: ¿Por qué encuentra ANTES por núcleo semántico?
             print(f"  Total encontrados: {len(resultados)}")
             return resultados[:limite]
 
