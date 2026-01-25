@@ -8,7 +8,6 @@ os.environ["OLLAMA_HOST"] = os.getenv("OLLAMA_HOST", "http://host.docker.interna
 import ollama
 from config import *
 
-
 # ============================================================
 # SISTEMA DE BÚSQUEDA
 # ============================================================
@@ -22,14 +21,12 @@ def normalizar(texto: str) -> str:
     texto = re.sub(r"\s+", " ", texto)
     return texto.strip()
 
-
 def singularizar(palabra: str) -> str:
     if palabra.endswith("es"):
         return palabra[:-2]
     if palabra.endswith("s"):
         return palabra[:-1]
     return palabra
-
 
 PALABRAS_GENERICAS = {
     "problema", "problemas",
@@ -39,7 +36,6 @@ PALABRAS_GENERICAS = {
     "alteracion", "alteraciones",
     "sintoma", "sintomas"
 }
-
 
 def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> List[Dict]:
     """
@@ -185,7 +181,6 @@ def buscar_entradas(termino: str, datos_diccionario: Dict, limite: int = 10) -> 
     print(f"  Total encontrados: {len(resultados)}")
     return resultados[:limite]
 
-
 # ============================================================
 # CARGAR DICCIONARIO
 # ============================================================
@@ -221,7 +216,6 @@ def cargar_diccionario() -> Dict:
 print(f"Cargando diccionario...")
 diccionario_data = cargar_diccionario()
 print(f"✓ Diccionario cargado: {diccionario_data['total']} entradas")
-
 
 def construir_contexto(entradas: List[Dict]) -> str:
     """
