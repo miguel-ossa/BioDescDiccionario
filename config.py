@@ -1,9 +1,7 @@
 # config.py
 import os
 from dotenv import load_dotenv
-from collections import defaultdict
-from openai import OpenAI
-import anthropic
+
 
 load_dotenv(override=True)
 # EMAIL_ALERTS_ENABLED = os.getenv("EMAIL_ALERTS_ENABLED")
@@ -85,6 +83,7 @@ MAX_TOKENS_RESPUESTA = 5000
 #     api_key='ollama'
 # )
 
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://192.168.1.80:11434")
 OLLAMA_MODEL = "mistral"
 
 OLLAMA_OPTIONS = {
